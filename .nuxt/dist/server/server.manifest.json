@@ -1,0 +1,31 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/contact-mail.js": "components/contact-mail.js",
+    "components/education-details.js": "components/education-details.js",
+    "components/experience-desc.js": "components/experience-desc.js",
+    "components/experience-details.js": "components/experience-details.js",
+    "components/login-details.js": "components/login-details.js",
+    "pages/contact.js": "pages/contact.js",
+    "pages/education/_id.js": "pages/education/_id.js",
+    "pages/education/index.js": "pages/education/index.js",
+    "pages/experience/_id.js": "pages/experience/_id.js",
+    "pages/experience/index.js": "pages/experience/index.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/contact-mail.js": "components/contact-mail.js.map",
+    "components/education-details.js": "components/education-details.js.map",
+    "components/experience-desc.js": "components/experience-desc.js.map",
+    "components/experience-details.js": "components/experience-details.js.map",
+    "components/login-details.js": "components/login-details.js.map",
+    "pages/contact.js": "pages/contact.js.map",
+    "pages/education/_id.js": "pages/education/_id.js.map",
+    "pages/education/index.js": "pages/education/index.js.map",
+    "pages/experience/_id.js": "pages/experience/_id.js.map",
+    "pages/experience/index.js": "pages/experience/index.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}
