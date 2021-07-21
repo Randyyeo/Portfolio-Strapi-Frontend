@@ -2,10 +2,11 @@
     <div >
         <h1 class="display-3 text-center mt-6">{{ detail.role }}</h1>
         <div class="text-center">
+            <h3 class="mt-5">{{ detail.start }} - {{ detail.end }}</h3>
             <v-row class="title-row ">
                 <v-col class="my-12 img">
                     <v-container class='container'>
-                        <img :src="`http://localhost:1337${detail.logo[0].url}`">
+                        <img :src="`${detail.logo[0].url}`">
                     </v-container>
                 </v-col>
             </v-row>

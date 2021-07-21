@@ -10,10 +10,8 @@ export default {
         state.see = !state.see
     },
     SET_EDUCATION(state, data){
-        data.forEach(element => {
-            element.dialog = false
-        });
-        state.education = data
+        
+        
         console.log(data)
     },
     SET_EXPERIENCE(state, data){

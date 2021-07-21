@@ -8,7 +8,7 @@
                 <v-col>
                     
                     
-                    <img :src="`http://localhost:1337${detail.logo[0].url}`">
+                    <img :src="`${detail.logo[0].url}`">
                 </v-col>
                 <v-col >
                     <p>

@@ -1,8 +1,9 @@
 import axios from "axios"
-const origin = "http://localhost:1337"
+const origin = "https://portfolio-app-with-strapi.herokuapp.com"
 
 export default {
     async getEducation(data){
+        console.log(origin)
         return await axios.get(`${origin}/educations`,{params:data.params})
     },
     async getExperience(data){

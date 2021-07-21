@@ -6,11 +6,11 @@
     
             <v-row class="names"
                 v-for="(detail, index) in details"
-                :key="index">
-                <v-col cols="6">
+                :key="index" >
+                <v-col cols="6" class="mt-8">
                     
                     
-                    <img :src="`http://localhost:1337${detail.logo.formats.thumbnail.url}`">
+                    <img :src="`${detail.logo.url}`">
                 </v-col>
                 <v-col cols="6">
                     <p>School : {{ detail.name }} <br>
@@ -36,7 +36,7 @@
                             </template>
 
                             <v-card>
-                                <v-card-title class="text-h5 grey lighten-2">
+                                <v-card-title class="text-h5 grey ">
                                     Achievements
                                 </v-card-title>
                                 <v-list>
@@ -47,7 +47,7 @@
                                             <v-list-item-title>
                                                 {{ sub_detail.title }}
                                                 <v-spacer></v-spacer>
-                                                {{ sub_detail.year }}
+                                                <span class="subtitle">{{ sub_detail.year }}</span>
                                             </v-list-item-title>
                                         </v-list-item>
                                     </div>
@@ -61,7 +61,7 @@
                                             <v-list-item-title>
                                                 {{ sub_detail.title }}
                                                 <v-spacer></v-spacer>
-                                                {{ sub_detail.year }}
+                                                <span class="subtitle">{{ sub_detail.year }}</span>
                                             </v-list-item-title>
                                         </v-list-item>
                                     </div>
@@ -75,7 +75,7 @@
                                             <v-list-item-title>
                                                 {{ sub_detail.title }}
                                                 <v-spacer></v-spacer>
-                                                {{ sub_detail.year }}
+                                                <span class="subtitle">{{ sub_detail.year }}</span>
                                             </v-list-item-title>
                                         </v-list-item>
                                     </div>
@@ -115,7 +115,7 @@
             return {
                 
                 hello: false,
-                details: this.$store.getters.education
+                details: null
             }
         },
         
@@ -133,12 +133,7 @@
             
         },
         mounted(){
-            this.$store.dispatch("getEducation", {}).then(res=>{
-                
-                
-            }).catch(error =>{
-                console.log(error)
-            })
+            this.get_education()
             
             
         },
@@ -146,7 +141,23 @@
             dialog(index){
                 this.$store.commit("SET_DIALOG", index)
                 
-            }
+            },
+            async get_education(){
+                await this.$store.dispatch("getEducation", {}).then(res=>{
+                    this.details = res.data.slice()
+                    
+                    console.log(this.details)
+                
+                    }).catch(error =>{
+                        console.log(error)
+                    })
+            },
+            /* close(id){
+                let filter = this.details[id-1]
+                filter.dialog = false
+                this.details[id-1] = filter
+                console.log(this.details)
+            } */
         }
     }
 </script>
@@ -158,10 +169,14 @@
     }
     .names{
         text-align: center;
+        margin-top: 20px
         
     }
     p{
         padding-top: 25px;
         
+    }
+    .subtitle {
+        font-size: 15px;
     }
 </style>
