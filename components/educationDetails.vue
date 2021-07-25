@@ -146,7 +146,7 @@
                 await this.$store.dispatch("getEducation", {}).then(res=>{
                     this.details = res.data.slice()
                     
-                    console.log(this.details)
+                    /* console.log(this.details) */
                 
                     }).catch(error =>{
                         console.log(error)

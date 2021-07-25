@@ -46,8 +46,8 @@
           </v-btn>
         </v-list-item>
         <v-list-item>
-          <v-btn to="/contact" >
-            Contact
+          <v-btn to="/projects" >
+            Projects
           </v-btn>
         </v-list-item>
       </v-list>
