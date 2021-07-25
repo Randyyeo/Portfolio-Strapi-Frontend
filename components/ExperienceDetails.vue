@@ -73,6 +73,6 @@
     }
     p{
         padding-top: 25px;
-        
+        font-size: 16px;
     }
 </style>

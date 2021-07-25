@@ -4,5 +4,8 @@ export default {
     },
     education(state){
         return state.education
+    },
+    projects(state){
+        return state.projects
     }
 }

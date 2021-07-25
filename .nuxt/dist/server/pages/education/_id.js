@@ -1,7 +1,7 @@
 exports.ids = [7];
 exports.modules = {
 
-/***/ 121:
+/***/ 136:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -143,7 +143,7 @@ var mergeData = __webpack_require__(18);
 
 /***/ }),
 
-/***/ 179:
+/***/ 189:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -202,13 +202,13 @@ var installComponents = __webpack_require__(19);
 var installComponents_default = /*#__PURE__*/__webpack_require__.n(installComponents);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VBtn/VBtn.js + 2 modules
-var VBtn = __webpack_require__(120);
+var VBtn = __webpack_require__(122);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/VContainer.js + 1 modules
-var VContainer = __webpack_require__(121);
+var VContainer = __webpack_require__(136);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VIcon/VIcon.js
-var VIcon = __webpack_require__(109);
+var VIcon = __webpack_require__(110);
 
 // CONCATENATED MODULE: ./pages/education/_id.vue
 
@@ -228,7 +228,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "7e746260",
-  "68c06923"
+  "7c606ca2"
   
 )
 

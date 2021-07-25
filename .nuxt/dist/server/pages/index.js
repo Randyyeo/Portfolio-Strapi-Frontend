@@ -1,7 +1,7 @@
 exports.ids = [11];
 exports.modules = {
 
-/***/ 121:
+/***/ 136:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -143,7 +143,7 @@ var mergeData = __webpack_require__(18);
 
 /***/ }),
 
-/***/ 124:
+/***/ 137:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -340,13 +340,13 @@ const cache = new Map();
 
 /***/ }),
 
-/***/ 154:
+/***/ 165:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(163);
+var content = __webpack_require__(173);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -358,47 +358,48 @@ module.exports.__inject__ = function (context) {
 
 /***/ }),
 
-/***/ 162:
+/***/ 172:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(154);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(165);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 163:
+/***/ 173:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".text{font-size:30px}img{max-width:100%;height:auto}p{font-size:25px}#link{font-size:20px}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".text{font-size:30px}img{max-width:100%;height:auto}p{font-size:25px}#link{font-size:20px}.website{font-size:22px}", ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
 
-/***/ 181:
+/***/ 191:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=0601ff80&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-container',{staticClass:" my-12"},[_c('v-row',{staticClass:"pt-10"},[_c('v-col',{staticClass:"pt-16",attrs:{"col":"6"}},[_c('p',{staticClass:"my-8"},[_vm._v("Hi, I'm Randall")]),_vm._v(" "),_c('h1',[_vm._v("Motivator . Leader . Professional")]),_vm._v(" "),_c('p',{staticClass:"pt-4"},[_vm._v("Aspiring Full Stack Developer currently learning under the steps of Isobar Technical Team")]),_vm._v(" "),_c('p',[_vm._v("Serious face but friendly in real life 😊")]),_vm._v(" "),_c('NuxtLink',{attrs:{"to":"/education"}},[_c('span',{attrs:{"id":"link"}},[_vm._v("Learn more about my journey")])])],1),_vm._v(" "),_c('v-col',{attrs:{"col":"6"}},[_c('v-container',[_c('img',{attrs:{"src":"/Profile-Picture.jpg"}})])],1)],1)],1)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=d1390ee2&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-container',{staticClass:" my-12"},[_c('v-row',{staticClass:"pt-10"},[_c('v-col',{staticClass:"pt-16",attrs:{"col":"6"}},[_c('p',{staticClass:"my-8"},[_vm._v("Hi, I'm Randall")]),_vm._v(" "),_c('h1',[_vm._v("Motivator . Leader . Professional")]),_vm._v(" "),_c('p',{staticClass:"pt-4"},[_vm._v("Aspiring Software Developer/Engineer currently learning under the steps of Isobar Technical Team 😊")]),_vm._v(" "),_c('p',{staticClass:"website"},[_vm._v("This website uses "),_c('a',{attrs:{"href":"https://www.nuxtjs.org"}},[_vm._v("Nuxtjs")]),_vm._v(" (Frontend), "),_c('a',{attrs:{"href":"https://www.strapi.io"}},[_vm._v("Strapi")]),_vm._v(" (Backend) and "),_c('a',{attrs:{"href":"https://www.mongodb.com"}},[_vm._v("MongoDB")]),_vm._v(" (Database). Deployed using "),_c('a',{attrs:{"href":"https://www.heroku.com"}},[_vm._v("Heroku")]),_vm._v(" \n    and "),_c('a',{attrs:{"href":"https://www.netlify.com"}},[_vm._v("Netlify")])]),_vm._v(" "),_c('NuxtLink',{attrs:{"to":"/education"}},[_c('span',{attrs:{"id":"link"}},[_vm._v("Learn more about my journey")])])],1),_vm._v(" "),_c('v-col',{attrs:{"col":"6"}},[_c('v-container',[_c('img',{attrs:{"src":"/Profile-Picture.jpg"}})])],1)],1)],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=0601ff80&
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=d1390ee2&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=js&
+//
 //
 //
 //
@@ -433,13 +434,13 @@ var installComponents = __webpack_require__(19);
 var installComponents_default = /*#__PURE__*/__webpack_require__.n(installComponents);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/VCol.js
-var VCol = __webpack_require__(124);
+var VCol = __webpack_require__(137);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/VContainer.js + 1 modules
-var VContainer = __webpack_require__(121);
+var VContainer = __webpack_require__(136);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/VRow.js
-var VRow = __webpack_require__(118);
+var VRow = __webpack_require__(120);
 
 // CONCATENATED MODULE: ./pages/index.vue
 
@@ -447,7 +448,7 @@ var VRow = __webpack_require__(118);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(162)
+  var style0 = __webpack_require__(172)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -461,7 +462,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   null,
-  "f7ede0bc"
+  "89d087a4"
   
 )
 

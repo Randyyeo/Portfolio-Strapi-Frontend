@@ -173,7 +173,8 @@
         
     }
     p{
-        padding-top: 25px;
+        padding-top: 50px;
+        font-size: 16px;
         
     }
     .subtitle {

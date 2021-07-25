@@ -15,8 +15,8 @@
           <v-btn to="/experience" text class="mx-4">
             Experience
           </v-btn>
-          <v-btn to="/contact" text class="mx-4">
-            Contact
+          <v-btn to="/projects" text class="mx-4">
+            Projects
           </v-btn>
         </v-toolbar-items>
         <v-toolbar-items>

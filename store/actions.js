@@ -27,6 +27,17 @@ export default {
             })
             
         })
+    },
+    getProjects({ commit }){
+        return new Promise((resolve, reject) => {
+            STRAPI.getProjects().then(response=>{
+                /* commit("SET_PROJECTS", response.data) */
+                resolve(response)
+            }).catch(error => {
+                console.log(error)
+                return reject(error)
+            })
+        })
     }
 }
 

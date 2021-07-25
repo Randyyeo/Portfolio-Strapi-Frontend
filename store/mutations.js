@@ -26,5 +26,8 @@ export default {
         console.log(education)
         education[data].dialog == !education[data].dialog
         state.education = education
+    },
+    SET_PROJECTS(state, data){
+        state.projects = data
     }
 }

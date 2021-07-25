@@ -4,6 +4,7 @@ export default () => ({
     see: false,
     education: null,
     experience: null,
-    id: null
+    id: null,
+    projects: null
 })
 

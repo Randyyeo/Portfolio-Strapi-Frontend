@@ -1,12 +1,15 @@
 {
-  "ContactMail": {
-    "description": "Auto imported from components/ContactMail.vue"
-  },
   "ExperienceDesc": {
     "description": "Auto imported from components/ExperienceDesc.vue"
   },
   "ExperienceDetails": {
     "description": "Auto imported from components/ExperienceDetails.vue"
+  },
+  "MyProjects": {
+    "description": "Auto imported from components/MyProjects.vue"
+  },
+  "Project": {
+    "description": "Auto imported from components/Project.vue"
   },
   "EducationDetails": {
     "description": "Auto imported from components/educationDetails.vue"

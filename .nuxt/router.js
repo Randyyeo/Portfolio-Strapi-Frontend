@@ -4,12 +4,12 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _284d4774 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
-const _ac363d02 = () => interopDefault(import('../pages/education/index.vue' /* webpackChunkName: "pages/education/index" */))
-const _ac52d26e = () => interopDefault(import('../pages/experience/index.vue' /* webpackChunkName: "pages/experience/index" */))
-const _702990b2 = () => interopDefault(import('../pages/education/_id.vue' /* webpackChunkName: "pages/education/_id" */))
-const _227db771 = () => interopDefault(import('../pages/experience/_id.vue' /* webpackChunkName: "pages/experience/_id" */))
-const _a8c6bbb4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _70fd5a9c = () => interopDefault(import('../pages/education/index.vue' /* webpackChunkName: "pages/education/index" */))
+const _3fc84bf6 = () => interopDefault(import('../pages/experience/index.vue' /* webpackChunkName: "pages/experience/index" */))
+const _15ce71fa = () => interopDefault(import('../pages/projects.vue' /* webpackChunkName: "pages/projects" */))
+const _ef6f4ccc = () => interopDefault(import('../pages/education/_id.vue' /* webpackChunkName: "pages/education/_id" */))
+const _6dc4d3de = () => interopDefault(import('../pages/experience/_id.vue' /* webpackChunkName: "pages/experience/_id" */))
+const _35ef31ce = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -23,28 +23,28 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/contact",
-    component: _284d4774,
-    name: "contact"
-  }, {
     path: "/education",
-    component: _ac363d02,
+    component: _70fd5a9c,
     name: "education"
   }, {
     path: "/experience",
-    component: _ac52d26e,
+    component: _3fc84bf6,
     name: "experience"
   }, {
+    path: "/projects",
+    component: _15ce71fa,
+    name: "projects"
+  }, {
     path: "/education/:id",
-    component: _702990b2,
+    component: _ef6f4ccc,
     name: "education-id"
   }, {
     path: "/experience/:id",
-    component: _227db771,
+    component: _6dc4d3de,
     name: "experience-id"
   }, {
     path: "/",
-    component: _a8c6bbb4,
+    component: _35ef31ce,
     name: "index"
   }],
 
