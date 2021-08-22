@@ -101,7 +101,7 @@
             </v-row>
         </v-container>
         <v-container v-if="details === null" class="delay">
-            <p id="message">Sorry for the delay! All the information is hosted on a free server which takes sometime to boot up. You can refresh a few more times and wait 1-2mins for it to show.</p>
+            <h1 id="message">Sorry for the delay! All the information is hosted on a free server which takes sometime to boot up. You can refresh a few more times and wait 1-2mins for it to show.</h1>
         </v-container>
     
     </div>  
@@ -148,6 +148,7 @@
             async get_education(){
                 await this.$store.dispatch("getEducation", {}).then(res=>{
                     this.details = res.data.slice()
+                    console.log(res)
                     
                     /* console.log(this.details) */
                 
@@ -173,13 +174,13 @@
     .names{
         text-align: center;
         margin-top: 20px
-        p{
+        
+    }
+    p{
             padding-top: 50px;
             font-size: 16px;
             
         }
-    }
-    
     .subtitle {
         font-size: 15px;
     }

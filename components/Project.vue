@@ -5,11 +5,11 @@
       <p>{{ data[0].description }}</p>
 
       <div class="sub-box">
-        <ul class="list">
-          <li v-for="(language, index) in data[0].languages" :key="index">
-            {{ language.language }}
-          </li>
-        </ul>
+        
+          <div v-for="(language, index) in data[0].languages" :key="index">
+            <span>{{ language.language }}</span>
+          
+        </div>
 
         <div v-if="data[0].frontend" class="mt-6">
           <v-btn @click="open(data[0].frontend)">Open</v-btn>
@@ -39,15 +39,16 @@
         </div>
       </div>
     </div>
-    <div class="box">
+    <div class="box" v-if="data.length>1">
       <h1>{{ data[1].name }}</h1>
       <p>{{ data[1].description }}</p>
       <div class="sub-box">
-        <ul class="list">
-          <li v-for="(language, index) in data[1].languages" :key="index">
-            {{ language.language }}
-          </li>
-        </ul>
+        
+          <div v-for="(language, index) in data[1].languages" :key="index">
+            <span>{{ language.language }}</span>
+          
+        </div>
+        
         <div v-if="data[1].frontend" class="mt-6">
           <v-btn @click="open(data[1].frontend)">Open</v-btn>
         </div>
@@ -97,6 +98,7 @@ export default {
   display: flex;
   margin: 100px 10em 5em 10em;
   width: auto;
+  justify-content: center;
 }
 .box {
   width: 50%;
@@ -110,7 +112,7 @@ export default {
   position: relative;
 }
 .list {
-  margin: auto;
+  
 }
 .sub-box {
   padding-bottom: 15px;
@@ -118,8 +120,9 @@ export default {
   bottom: 0px;
   border-radius: red;
   /* padding-left: 275px */
-  right: 0px;
-  left: 0px;
+  width: 90%;
+  margin: auto;
+  
 }
 .text {
   text-align: center;
@@ -127,5 +130,14 @@ export default {
 }
 p {
   font-size: 16px;
+}
+li{
+  list-style: none;
+  margin: auto;
+}
+@media only screen and (max-width:1100px){
+  .box{
+    height: 550px;
+  }
 }
 </style>

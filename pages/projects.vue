@@ -31,7 +31,7 @@ export default {
         .dispatch("getProjects")
         .then((res) => {
           let data = res.data.slice();
-          this.projects = _.chunk(data, 2);
+          this.projects = data
         })
         .catch((error) => {
           console.log(error);
