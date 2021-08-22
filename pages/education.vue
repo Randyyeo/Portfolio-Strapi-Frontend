@@ -1,5 +1,6 @@
 <template>
     <EducationDetails class="my-6"/>
+    
 </template>
 
 <script>
