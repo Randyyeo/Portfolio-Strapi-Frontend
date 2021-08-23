@@ -168,8 +168,8 @@
 
 <style lang="scss" scoped>
     img{
-        height: 100%;
-        width: 100%;
+        height: 250px;
+        width: auto;
     }
     .names{
         text-align: center;
@@ -203,6 +203,10 @@
             #message{
                 font-size: 10px
             }
+        }
+        img{
+            height: 200px;
+            width: 100%;
         }
     }
 </style>

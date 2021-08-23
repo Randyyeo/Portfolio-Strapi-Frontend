@@ -1,21 +1,23 @@
 <template>
+  <v-app>
     <div>
-        <v-container class="my-14">
-            <ExperienceDesc  />
-        </v-container>
+      <v-container class="my-14">
+        <ExperienceDesc />
+      </v-container>
     </div>
+  </v-app>
 </template>
 
 <script>
-    export default {
-        data(){
-            return {
-                /* details: this.$store.state.experience,
+export default {
+  data() {
+    return {
+      /* details: this.$store.state.experience,
                 detail: null */
-            }
-        },
-        
-        /* mounted(){
+    };
+  },
+
+  /* mounted(){
             
             const id = this.$route.params.id
             this.detail = this.details.find(v => v.id == id)
@@ -23,7 +25,7 @@
                 
             
         }, */
-        /* computed: {
+  /* computed: {
             detail(){
                 const id = this.$route.params.id
                 this.$store.dispatch("getExperience").then(res => {
@@ -34,9 +36,7 @@
                 })
             }
         } */
-    }
+};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
