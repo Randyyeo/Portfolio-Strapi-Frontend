@@ -10,7 +10,7 @@
                 <v-col cols="6" class="mt-8">
                     
                     
-                    <img :src="`${detail.logo.url}`">
+                    <img class="images" :src="`${detail.logo.url}`">
                 </v-col>
                 <v-col cols="6">
                     <p>School : {{ detail.name }} <br>
@@ -168,8 +168,8 @@
 
 <style lang="scss" scoped>
     img{
-        height: 200px;
-        width: auto;
+        height: 100%;
+        width: 100%;
     }
     .names{
         text-align: center;
@@ -196,6 +196,13 @@
             width: 80%;
             padding: 5% 0;
             margin: auto;
+        }
+    }
+    @media (max-width: 600px) {
+        .delay{
+            #message{
+                font-size: 10px
+            }
         }
     }
 </style>

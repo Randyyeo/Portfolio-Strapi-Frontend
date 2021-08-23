@@ -1,6 +1,7 @@
 <template>
-    <EducationDetails class="my-6"/>
-    
+    <v-app>
+        <EducationDetails class="my-6"/>
+    </v-app>   
 </template>
 
 <script>

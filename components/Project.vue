@@ -136,8 +136,12 @@ li{
   margin: auto;
 }
 @media only screen and (max-width:1100px){
+  .two-container{
+    margin: 100px auto 100px auto
+  }
   .box{
     height: 550px;
+    width: 90%;
   }
 }
 </style>

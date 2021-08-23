@@ -1,4 +1,5 @@
 <template>
+  <v-app>
   <div class="mt-6">
     <MyProjects :data="projects" v-if="projects !== null" />
     <v-container v-if="projects === null" class="delay">
@@ -9,6 +10,7 @@
       </p>
     </v-container>
   </div>
+  </v-app>
 </template>
 
 <script>
@@ -56,4 +58,11 @@ export default {
     margin: auto;
   }
 }
+@media (max-width: 600px) {
+        .delay{
+            #message{
+                font-size: 10px
+            }
+        }
+    }
 </style>

@@ -80,4 +80,11 @@ p {
     margin: auto;
   }
 }
+@media (max-width: 600px) {
+        .delay{
+            #message{
+                font-size: 10px
+            }
+        }
+    }
 </style>

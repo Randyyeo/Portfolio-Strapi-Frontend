@@ -1,5 +1,6 @@
 <template>
-    <v-container class=" my-12" style="width: 90%;">
+  <v-app>
+    <v-container class=" mt-6 mb-12" style="width: 90%;">
     <v-row class="pt-10 hidden-sm-and-down" >
       <v-col col="6" class="pt-16">
         <p class="my-8">Hi, I'm Randall</p>
@@ -35,7 +36,7 @@
     
 
     </v-container>
-    
+  </v-app> 
 </template>
 
 <script>
