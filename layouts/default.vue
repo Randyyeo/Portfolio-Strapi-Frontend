@@ -162,10 +162,22 @@
   margin: 0 1cm;
   /* margin: 0 8px; */
   font-family: "Roboto", sans-serif;
+  border-radius: 6px;
+  width: 100px;
+  }
+
+  
+
+  .navLink a:hover{
+    background-color: #313131;
+    transition: all 0.4s ease;
+    text-decoration: underline;
+    padding: 0.3cm;
   }
 
   .navLink li {
   list-style: none;
+  height: 40px;
   }
 
   .burger div {

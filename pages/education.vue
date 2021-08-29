@@ -5,13 +5,19 @@
 </template>
 
 <script>
+const origin = process.env.origin;
+
     export default {
-        data(){
-            return {
-                details: []
+        /* async asyncData( {$axios, redirect} ){
+            const api = ""
+            try {
+                const details = await $axios.$get(api)
+                console.log(details)
+                return { details }
+            } catch (err){
+                redirect("/error")
             }
-        },
-        
+        } */
     }
 </script>
 

@@ -121,6 +121,10 @@
                 details: null
             }
         },
+
+        props: {
+            data: null
+        },
         
         computed: {
             /* details(){
@@ -148,7 +152,7 @@
             async get_education(){
                 await this.$store.dispatch("getEducation", {}).then(res=>{
                     this.details = res.data.slice()
-                    console.log(res)
+                    
                     
                     /* console.log(this.details) */
                 
