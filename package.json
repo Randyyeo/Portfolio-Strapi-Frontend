@@ -11,9 +11,12 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/dotenv": "^1.4.1",
+    "aos": "^2.3.4",
     "core-js": "^3.9.1",
+    "fullpage.js": "^3.1.2",
     "lodash": "^4.17.21",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "vue-fullpage.js": "^0.1.7"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.11.3"

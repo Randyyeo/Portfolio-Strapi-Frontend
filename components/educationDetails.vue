@@ -1,12 +1,13 @@
 <template>
     <div>
         
-        <v-container class="my-12" v-if="details !== null">
+        <v-container class="my-5" v-if="details !== null">
             
     
             <v-row class="names"
                 v-for="(detail, index) in details"
-                :key="index" >
+                :key="index"
+                data-aos="fade-right" >
                 <v-col cols="6" class="mt-8">
                     
                     

@@ -1,7 +1,7 @@
 <template>
     <div>
-        <Project :data="project" v-for="(project, index) in final_data(2)" :key="index" class="hidden-md-and-down"/>
-        <Project :data="project" v-for="(project, index) in final_data(1)" :key="index" class="hidden-lg-and-up" />
+        <Project :data="project" v-for="(project, index) in final_data(2)" :key="index" />
+        
     </div>
 
 </template>
@@ -19,6 +19,7 @@ import * as _ from "lodash";
         },
         methods: {
             final_data(index){
+                console.log(index)
                 return _.chunk(this.data,index)
             }
         }

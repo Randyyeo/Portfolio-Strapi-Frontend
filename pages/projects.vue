@@ -1,6 +1,6 @@
 <template>
   <v-app>
-  <div class="mt-6">
+  <div class="">
     <MyProjects :data="projects" v-if="projects !== null" />
     <v-container v-if="projects === null" class="delay">
       <p id="message">
@@ -32,8 +32,9 @@ export default {
       await this.$store
         .dispatch("getProjects")
         .then((res) => {
+          console.log(res)
           let data = res.data.slice();
-          this.projects = data
+          this.projects = data.reverse()
         })
         .catch((error) => {
           console.log(error);

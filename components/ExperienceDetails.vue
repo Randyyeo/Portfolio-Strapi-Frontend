@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container class="my-12">
-      <v-row class="names" v-for="(detail, index) in details" :key="index">
+      <v-row data-aos="flip-right" class="names" v-for="(detail, index) in details" :key="index">
         <v-col>
           <img :src="`${detail.logo[0].url}`" />
         </v-col>

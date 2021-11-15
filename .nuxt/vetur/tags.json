@@ -1,0 +1,23 @@
+{
+  "ExperienceDesc": {
+    "description": "Auto imported from components/ExperienceDesc.vue"
+  },
+  "ExperienceDetails": {
+    "description": "Auto imported from components/ExperienceDetails.vue"
+  },
+  "MyProjects": {
+    "description": "Auto imported from components/MyProjects.vue"
+  },
+  "Project": {
+    "description": "Auto imported from components/Project.vue"
+  },
+  "EducationDetails": {
+    "description": "Auto imported from components/educationDetails.vue"
+  },
+  "Homepage": {
+    "description": "Auto imported from components/homepage.vue"
+  },
+  "LoginDetails": {
+    "description": "Auto imported from components/loginDetails.vue"
+  }
+}

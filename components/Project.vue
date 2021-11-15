@@ -1,6 +1,6 @@
 <template>
-  <div class="two-container">
-    <div class="box">
+  <v-row class="two-container ">
+    <v-col class="box" cols="12" lg="5">
       <h1>{{ data[0].name }}</h1>
       <p>{{ data[0].description }}</p>
 
@@ -18,7 +18,7 @@
         <div v-else>
           <v-dialog v-model="data[0].dialog" width="500" :retain-focus="false">
             <template v-slot:activator="{ on }">
-              <v-btn dark class="mt-6" v-on="on"> Open </v-btn>
+              <v-btn dark class="mt-6" v-on="on" > Open </v-btn>
             </template>
 
             <v-card>
@@ -38,8 +38,8 @@
           </v-dialog>
         </div>
       </div>
-    </div>
-    <div class="box" v-if="data.length>1">
+    </v-col>
+    <v-col class="box" v-if="data.length>1" cols="12" lg="5">
       <h1>{{ data[1].name }}</h1>
       <p>{{ data[1].description }}</p>
       <div class="sub-box">
@@ -76,8 +76,8 @@
           </v-dialog>
         </div>
       </div>
-    </div>
-  </div>
+    </v-col>
+  </v-row>
 </template>
 
 <script>
@@ -101,7 +101,7 @@ export default {
   justify-content: center;
 }
 .box {
-  width: 50%;
+  
   height: 450px;
   border: 2px solid white;
   text-align: center;
@@ -140,8 +140,8 @@ li{
     margin: 100px auto 100px auto
   }
   .box{
-    height: 550px;
-    width: 90%;
+    height: 500px;
+    width: 70%;
   }
 }
 </style>

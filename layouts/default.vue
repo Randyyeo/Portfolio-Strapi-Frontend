@@ -81,7 +81,7 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 75px;
+    height: 50px;
     
   }
 
@@ -89,7 +89,7 @@
     display: flex;
     color: white;
     justify-content: center;
-    padding-top: 0.8cm;
+    padding-top: 0.5cm;
   }
 
   .links{
@@ -171,7 +171,6 @@
   .navLink a:hover{
     background-color: #313131;
     transition: all 0.4s ease;
-    text-decoration: underline;
     padding: 0.3cm;
   }
 
