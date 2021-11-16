@@ -3,30 +3,35 @@
     "name": "education",
     "path": "/education",
     "component": "/Users/randallyeo/Desktop/Desktop Items/My Own Programming/Nuxtjs/portfolio-app-strapi/Portfolio-Strapi-Frontend/pages/education.vue",
-    "chunkName": "pages/education"
+    "chunkName": "pages/education",
+    "_name": "_1d915b6f"
   },
   {
     "name": "experience",
     "path": "/experience",
     "component": "/Users/randallyeo/Desktop/Desktop Items/My Own Programming/Nuxtjs/portfolio-app-strapi/Portfolio-Strapi-Frontend/pages/experience/index.vue",
-    "chunkName": "pages/experience/index"
+    "chunkName": "pages/experience/index",
+    "_name": "_3fc84bf6"
   },
   {
     "name": "projects",
     "path": "/projects",
     "component": "/Users/randallyeo/Desktop/Desktop Items/My Own Programming/Nuxtjs/portfolio-app-strapi/Portfolio-Strapi-Frontend/pages/projects.vue",
-    "chunkName": "pages/projects"
+    "chunkName": "pages/projects",
+    "_name": "_15ce71fa"
   },
   {
     "name": "experience-id",
     "path": "/experience/:id",
     "component": "/Users/randallyeo/Desktop/Desktop Items/My Own Programming/Nuxtjs/portfolio-app-strapi/Portfolio-Strapi-Frontend/pages/experience/_id.vue",
-    "chunkName": "pages/experience/_id"
+    "chunkName": "pages/experience/_id",
+    "_name": "_6dc4d3de"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/randallyeo/Desktop/Desktop Items/My Own Programming/Nuxtjs/portfolio-app-strapi/Portfolio-Strapi-Frontend/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_35ef31ce"
   }
 ]

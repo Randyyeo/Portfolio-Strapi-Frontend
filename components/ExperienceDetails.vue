@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-container class="my-12">
+    <v-container class="my-5">
       <v-row data-aos="flip-right" class="names" v-for="(detail, index) in details" :key="index">
         <v-col>
           <img :src="`${detail.logo[0].url}`" />

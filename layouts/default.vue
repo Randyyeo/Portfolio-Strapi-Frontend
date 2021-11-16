@@ -8,7 +8,7 @@
         
 
         
-        <ul :class="slide ? 'openNavLink' + ' ' + 'transition' : 'navLink' ">
+        <ul :class="slide ? 'openNavLink' + ' ' + 'transition' : 'navLink' " data-aos="fade-right">
           <li><a href="/">Home</a></li>
           <li><a href="./education">Education</a></li>
           <li><a href="./experience">Experience</a></li>

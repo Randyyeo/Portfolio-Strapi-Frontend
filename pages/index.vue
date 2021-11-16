@@ -57,10 +57,14 @@
         </v-row>
       </div><br>
       <hr>
+      <br>
+      <hr>
       <div class="mt-5">
         <h1 class="text-center">My Education Journey</h1>
           <EducationDetails />
       </div>
+      <br>
+      <hr>
       <br>
       <hr>
       <div class="mt-5">
