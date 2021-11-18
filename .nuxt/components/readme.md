@@ -6,6 +6,7 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
+- `<Button>` | `<button>` (components/Button.vue)
 - `<ExperienceDesc>` | `<experience-desc>` (components/ExperienceDesc.vue)
 - `<ExperienceDetails>` | `<experience-details>` (components/ExperienceDetails.vue)
 - `<MyProjects>` | `<my-projects>` (components/MyProjects.vue)

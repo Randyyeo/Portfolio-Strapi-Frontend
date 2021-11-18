@@ -1,6 +1,6 @@
 <template>
-  <v-row class="two-container ">
-    <v-col class="box" cols="12" lg="5">
+  <v-row class="two-container " data-aos="fade-left">
+    <v-col  class="box" cols="12" lg="5">
       <h1>{{ data[0].name }}</h1>
       <p>{{ data[0].description }}</p>
 
@@ -39,7 +39,7 @@
         </div>
       </div>
     </v-col>
-    <v-col class="box" v-if="data.length>1" cols="12" lg="5">
+    <v-col data-aos="fade-right" class="box" v-if="data.length>1" cols="12" lg="5">
       <h1>{{ data[1].name }}</h1>
       <p>{{ data[1].description }}</p>
       <div class="sub-box">
@@ -96,13 +96,14 @@ export default {
 <style lang="scss" scoped>
 .two-container {
   display: flex;
-  margin: 100px 10em 5em 10em;
+  margin: 0 10em 0 10em;
   width: auto;
   justify-content: center;
 }
 .box {
   
   height: 450px;
+  width: 100px;
   border: 2px solid white;
   text-align: center;
   border-radius: 25px;
@@ -137,11 +138,12 @@ li{
 }
 @media only screen and (max-width:1100px){
   .two-container{
-    margin: 100px auto 100px auto
+    margin: 0 auto 0 auto;
+    width: 70%;
   }
   .box{
     height: 500px;
-    width: 70%;
+    
   }
 }
 </style>

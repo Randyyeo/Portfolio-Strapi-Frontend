@@ -8,7 +8,7 @@
         
 
         
-        <ul :class="slide ? 'openNavLink' + ' ' + 'transition' : 'navLink' " data-aos="fade-right">
+        <ul :class="slide ? 'openNavLink' + ' ' + 'transition' : 'navLink' " >
           <li><a href="/">Home</a></li>
           <li><a href="./education">Education</a></li>
           <li><a href="./experience">Experience</a></li>
@@ -24,10 +24,12 @@
     
     <Nuxt class="content"/>
     <footer>
-      <v-row class="footer">
-        <div v-for="(link,index) in links" :key="index"  class="links" @click="goTo(link[1])">
+      <div class="d-flex justify-content-center footer">
+        
+        <span v-for="(link,index) in links" :key="index"  class="links" @click="goTo(link[1])">
+          
           <v-icon id="icon">{{ link[0] }}</v-icon>
-        </div>
+        </span>
         <!-- <v-btn icon class="mx-4">
           <v-icon>mdi-facebook</v-icon>
         </v-btn>
@@ -40,7 +42,7 @@
         <v-btn icon class="mx-4">
           <v-icon>mdi-linkedin</v-icon>
         </v-btn> -->
-      </v-row>
+      </div>
     </footer>
   </div>
   
@@ -89,7 +91,7 @@
     display: flex;
     color: white;
     justify-content: center;
-    padding-top: 0.5cm;
+    padding-top: 0.2cm;
   }
 
   .links{
@@ -115,6 +117,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+    height: 60px;
   }
   
   .openNavLink{
@@ -122,7 +125,7 @@
     display: flex;
     width: 45%;
     justify-content: space-around;
-    height: 75px;
+    height: 50px;
     /* padding-left: 8cm; */
     padding-top: 20px;
     margin-right: 6%;
@@ -133,10 +136,10 @@
     display: flex;
     width: 45%;
     justify-content: space-around;
-    height: 75px;
+    height: 50px;
     /* padding-left: 8cm; */
-    padding-top: 20px;
-    margin-right: 6%;
+    padding-top: 10px;
+    margin-right: 8%;
   }
   
   .openNavLink a{
@@ -189,26 +192,29 @@
   .burger {
   display: none;
   cursor: pointer;
-  height:75px;
+  height:50px;
   margin-right: 6%;
   padding-top: 20px;
   }
 
  
 
-  @media screen and (max-width: 1300px){
+  @media screen and (max-width: 1250px){
     .navLink{
         
-        display: none;
+        position: absolute;
+        top: -100vh;
+        
     }
     .transition {
-        right: -5%;
+        right: -6%;
     }
 
     .openNavLink{
       position: absolute;
         height: 100vh;
-        top: 75px;
+        top: 60px;
+        
         display: flex;
         flex-direction: column;
         align-items: center;

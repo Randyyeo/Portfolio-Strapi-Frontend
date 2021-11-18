@@ -19,7 +19,7 @@ import * as _ from "lodash";
         },
         methods: {
             final_data(index){
-                console.log(index)
+                
                 return _.chunk(this.data,index)
             }
         }

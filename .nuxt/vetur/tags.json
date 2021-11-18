@@ -1,4 +1,7 @@
 {
+  "Button": {
+    "description": "Auto imported from components/Button.vue"
+  },
   "ExperienceDesc": {
     "description": "Auto imported from components/ExperienceDesc.vue"
   },
