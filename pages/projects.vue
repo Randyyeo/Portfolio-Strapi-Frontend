@@ -1,6 +1,6 @@
 <template>
   <v-app>
-  <div class="mt-5">
+  <div class="mt-5" data-aos="fade-up">
     <v-row class="mb-5 justify-center text-center">
       <v-col cols="2">
         <p class="mb-3">Filter projects based on frameworks</p> 
@@ -26,12 +26,15 @@
       </p>
     </v-container>
   </div>
+  
   </v-app>
 </template>
 
 <script>
 import * as _ from "lodash";
+import aosMixin from "~/mixins/aos";
 export default {
+  mixins: [aosMixin],
   data() {
     return {
       projects: null,

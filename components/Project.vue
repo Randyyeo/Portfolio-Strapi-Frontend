@@ -1,6 +1,6 @@
 <template>
-  <v-row class="two-container " data-aos="fade-left">
-    <v-col  class="box" cols="12" lg="5">
+  <v-row class="two-container " >
+    <v-col data-aos="fade-right" class="box" cols="12" lg="5">
       <h1>{{ data[0].name }}</h1>
       <p>{{ data[0].description }}</p>
 
@@ -39,7 +39,7 @@
         </div>
       </div>
     </v-col>
-    <v-col data-aos="fade-right" class="box" v-if="data.length>1" cols="12" lg="5">
+    <v-col data-aos="fade-left" class="box" v-if="data.length>1" cols="12" lg="5">
       <h1>{{ data[1].name }}</h1>
       <p>{{ data[1].description }}</p>
       <div class="sub-box">

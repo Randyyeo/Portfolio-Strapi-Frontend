@@ -7,8 +7,8 @@
         </v-col>
         <v-col>
           <p>
-            <u>Position</u> : {{ detail.role }} <br />
-            <u>Company</u> : {{ detail.company }}
+            <b>Position</b> : {{ detail.role }} <br />
+            <b>Company</b> : {{ detail.company }}
           </p>
 
           <v-btn @click="go(detail.id)">
@@ -57,7 +57,7 @@ export default {
 <style lang="scss" scoped>
 img {
   height: 200px;
-  width: auto;
+  width: 200px;
 }
 .names {
   text-align: center;

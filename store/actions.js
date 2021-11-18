@@ -4,7 +4,7 @@ export default {
     getEducation({ commit }, data){
         return new Promise((resolve, reject) => {
             STRAPI.getEducation({params: data.params}).then(response => {
-                commit("SET_EDUCATION", response.data)
+                commit("SET_EDUCATION", response.data.reverse())
                 resolve(response)
             }).catch(error => {
                 console.log(error)
@@ -19,7 +19,7 @@ export default {
     getExperience({ commit }, data){
         return new Promise((resolve, reject) => {
             STRAPI.getExperience({params: data.params}).then(response => {
-                commit("SET_EXPERIENCE", response.data)
+                commit("SET_EXPERIENCE", response.data.reverse())
                 resolve(response)
             }).catch(error => {
                 console.log(error)

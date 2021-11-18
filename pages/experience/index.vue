@@ -5,7 +5,10 @@
 </template>
 
 <script>
-export default {};
+import aosMixin from "~/mixins/aos";
+export default {
+  mixins:[aosMixin]
+};
 </script>
 
 <style lang="scss" scoped></style>
