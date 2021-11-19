@@ -2,7 +2,7 @@
   <v-app>
   <div class="mt-5" data-aos="fade-up">
     <v-row class="mb-5 justify-center text-center">
-      <v-col cols="2">
+      <v-col lg="2" md="3" sm="5" cols="6">
         <p class="mb-3">Filter projects based on frameworks</p> 
         <select name="" @change="select_lan()"  v-model="select" class="form-select" id="">
           <option :value="lan" v-for="lan in languages" :key="lan" >{{lan}}</option>
@@ -11,7 +11,7 @@
       </v-col>
     </v-row> 
     <v-row class="mb-5 w-50 mx-auto justify-space-around text-center">
-      <v-col cols="3" v-for="select in selected" :key="select">
+      <v-col cols="6" lg="3" md="4" sm="5" v-for="select in selected" :key="select">
         <v-btn class="languages" ><v-icon class="btn-icon" @click="remove(select)">mdi-delete</v-icon><span class="word">{{select}}</span></v-btn>
       </v-col>
     </v-row> 

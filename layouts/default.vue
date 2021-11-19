@@ -107,7 +107,7 @@
   }
 
   #icon:hover{
-    background-color: grey;
+    background-color: rgb(141, 139, 139);
     
     
   }
@@ -172,7 +172,7 @@
   
 
   .navLink a:hover{
-    background-color: #313131;
+    
     transition: all 0.4s ease;
     padding: 0.3cm;
   }
