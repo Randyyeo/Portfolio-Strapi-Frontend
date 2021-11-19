@@ -13,5 +13,7 @@ import aosMixin from "~/mixins/aos";
 </script>
 
 <style lang="scss" scoped>
-
+body{
+  overflow-x: hidden !important;
+}
 </style>

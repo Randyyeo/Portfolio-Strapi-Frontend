@@ -1,7 +1,7 @@
 <template>
     <div >
-        <h1 class="display-3 text-center mt-6">{{ detail.role }}</h1>
-        <div class="text-center">
+        <h1 data-aos="fade-down" class="display-3 text-center mt-6">{{ detail.role }}</h1>
+        <div data-aos="fade-up" class="text-center">
             <h3 class="mt-5">{{ detail.start }} - {{ detail.end }}</h3>
             <v-row class="title-row ">
                 <v-col class="my-12 img">

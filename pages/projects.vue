@@ -138,7 +138,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+body{
+  overflow-x: hidden;
+}
 .delay {
   width: 50%;
   margin: 2cm auto 0 auto;

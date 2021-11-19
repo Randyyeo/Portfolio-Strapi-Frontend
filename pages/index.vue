@@ -96,6 +96,9 @@ export default {
 </script>
 
 <style>
+body{
+  overflow-x: hidden;
+}
 .text {
   font-size: 30px;
 }

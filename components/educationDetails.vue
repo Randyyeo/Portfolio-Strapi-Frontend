@@ -172,6 +172,9 @@
 </script>
 
 <style lang="scss" scoped>
+body{
+  overflow-x: hidden !important;
+}
     img{
         height: 250px;
         width: auto;
