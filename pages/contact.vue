@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <v-container class="mt-5">
+        <v-container data-aos="fade-down" class="mt-5">
             <form action="https://formsubmit.co/randallysk@gmail.com" class="w-75 mx-auto" method="POST">
                 <h2 class="mb-5 text-center">Have any suggestions or ideas? Feel free to contact me!</h2>
                 <v-text-field label="Name" name="name" solo></v-text-field>
