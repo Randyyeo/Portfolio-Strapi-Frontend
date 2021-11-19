@@ -1,5 +1,12 @@
 [
   {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/randallyeo/Desktop/Desktop Items/My Own Programming/Nuxtjs/portfolio-app-strapi/Portfolio-Strapi-Frontend/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_9448c8b2"
+  },
+  {
     "name": "education",
     "path": "/education",
     "component": "/Users/randallyeo/Desktop/Desktop Items/My Own Programming/Nuxtjs/portfolio-app-strapi/Portfolio-Strapi-Frontend/pages/education.vue",

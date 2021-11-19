@@ -10,9 +10,8 @@
         
         <ul :class="slide ? 'openNavLink' + ' ' + 'transition' : 'navLink' " >
           <li><a href="/">Home</a></li>
-          <li><a href="./education">Education</a></li>
-          <li><a href="./experience">Experience</a></li>
           <li><a href="./projects">Projects</a></li>
+          <li><a href="./contact">Contact</a></li>
         </ul>
         
         <div class="burger" @click="navSlide">
@@ -139,7 +138,7 @@
     height: 50px;
     /* padding-left: 8cm; */
     padding-top: 10px;
-    margin-right: 8%;
+    margin-right: 4%;
   }
   
   .openNavLink a{
