@@ -28,6 +28,13 @@
     "_name": "_15ce71fa"
   },
   {
+    "name": "thanks",
+    "path": "/thanks",
+    "component": "/Users/randallyeo/Desktop/Desktop Items/My Own Programming/Nuxtjs/portfolio-app-strapi/Portfolio-Strapi-Frontend/pages/thanks.vue",
+    "chunkName": "pages/thanks",
+    "_name": "_5382ee12"
+  },
+  {
     "name": "experience-id",
     "path": "/experience/:id",
     "component": "/Users/randallyeo/Desktop/Desktop Items/My Own Programming/Nuxtjs/portfolio-app-strapi/Portfolio-Strapi-Frontend/pages/experience/_id.vue",

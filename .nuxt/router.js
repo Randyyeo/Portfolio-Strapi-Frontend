@@ -8,6 +8,7 @@ const _9448c8b2 = () => interopDefault(import('../pages/contact.vue' /* webpackC
 const _1d915b6f = () => interopDefault(import('../pages/education.vue' /* webpackChunkName: "pages/education" */))
 const _3fc84bf6 = () => interopDefault(import('../pages/experience/index.vue' /* webpackChunkName: "pages/experience/index" */))
 const _15ce71fa = () => interopDefault(import('../pages/projects.vue' /* webpackChunkName: "pages/projects" */))
+const _5382ee12 = () => interopDefault(import('../pages/thanks.vue' /* webpackChunkName: "pages/thanks" */))
 const _6dc4d3de = () => interopDefault(import('../pages/experience/_id.vue' /* webpackChunkName: "pages/experience/_id" */))
 const _35ef31ce = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -38,6 +39,10 @@ export const routerOptions = {
     path: "/projects",
     component: _15ce71fa,
     name: "projects"
+  }, {
+    path: "/thanks",
+    component: _5382ee12,
+    name: "thanks"
   }, {
     path: "/experience/:id",
     component: _6dc4d3de,
