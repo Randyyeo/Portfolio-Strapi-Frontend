@@ -117,16 +117,18 @@
     display: flex;
     justify-content: space-between;
     height: 60px;
+    z-index: 999;
   }
   
   .openNavLink{
     background-color: #272727;
     display: flex;
-    width: 45%;
-    justify-content: space-around;
+    width: 35%;
+    
     height: 50px;
     /* padding-left: 8cm; */
     padding-top: 20px;
+    z-index: 10;
     margin-right: 6%;
   }
 
@@ -135,7 +137,7 @@
     display: flex;
     width: 45%;
     justify-content: space-around;
-    height: 50px;
+    height: 60px;
     /* padding-left: 8cm; */
     padding-top: 10px;
     margin-right: 4%;
@@ -147,19 +149,22 @@
     font-size: 15px;
     color: white;
     text-decoration: none;
-    margin: 0 1cm;
+    
+    
     /* margin: 0 8px; */
     font-family: "Roboto", sans-serif;
   }
 
   .openNavLink li{
     list-style: none;
+    margin: 2cm 1cm;
   }
   .navLink a {
   letter-spacing: 3px;
   font-weight: bold;
   font-size: 25px;
   color: white;
+  height: 60px;
   text-decoration: none;
   margin: 0 1cm;
   /* margin: 0 8px; */
@@ -171,9 +176,9 @@
   
 
   .navLink a:hover{
-    
+    background-color: rgb(53, 52, 52);
     transition: all 0.4s ease;
-    padding: 0.3cm;
+    padding: 0.45cm;
   }
 
   .navLink li {
@@ -211,7 +216,7 @@
 
     .openNavLink{
       position: absolute;
-        height: 100vh;
+        height: calc(100vh - 60px);
         top: 60px;
         
         display: flex;
@@ -219,7 +224,7 @@
         align-items: center;
         transition: 0.5s;
         background-color: grey;
-        z-index: 999;
+        
     }
 
     .navLink li {
