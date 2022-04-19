@@ -1,22 +1,16 @@
 <template>
   <v-app>
-    <v-container class=" mt-6 mb-12" style="width: 90%;">
+    <v-container class="con mt-6 mb-12" style="width: 90%;">
       <div  class="pt-5 hidden-sm-and-down">
         <v-row>
           <v-col data-aos="fade-up" col="6" class="pt-16" >
             <p class="my-8">Hi, I'm Randall</p>
             <h1>Motivator . Leader . Professional</h1>
             <p class="pt-4">
-              Aspiring Software Developer/Engineer currently learning under the
-              steps of Isobar Technical Team 😊
+              Aspiring Quant Developer/Software Engineer 
             </p>
             <p class="website">
-              This website uses
-              <a href="https://www.nuxtjs.org">Nuxtjs</a> (Frontend),
-              <a href="https://www.strapi.io">Strapi</a> (Backend) and
-              <a href="https://www.mongodb.com">MongoDB</a> (Database). Deployed
-              using <a href="https://www.heroku.com">Heroku</a> and
-              <a href="https://www.netlify.com">Netlify</a>
+              Follow my journey as I explore more about Engineering in the Finance and Tech Industries
             </p>
             <NuxtLink to="/education"
               ><span id="link">Learn more about my journey</span></NuxtLink
@@ -34,18 +28,13 @@
         <v-row  class="pt-16">
           <p class="my-8">Hi, I'm Randall</p>
           <p class="pt-4">
-            Aspiring Software Developer/Engineer currently learning under the
-            steps of Isobar Technical Team 😊
+            Aspiring Quant Developer/Software Engineer 
           </p>
           <h1 class="mb-4">Motivator . Leader . Professional</h1>
-          <p class="website">
-            This website uses
-            <a href="https://www.nuxtjs.org">Nuxtjs</a> (Frontend),
-            <a href="https://www.strapi.io">Strapi</a> (Backend) and
-            <a href="https://www.mongodb.com">MongoDB</a> (Database). Deployed
-            using <a href="https://www.heroku.com">Heroku</a> and
-            <a href="https://www.netlify.com">Netlify</a>
-          </p>
+          
+            <p class="website">
+              Follow my journey as I explore more about Engineering in the Finance and Tech Industries
+            </p>
           <NuxtLink to="/education"
             ><span id="link">Learn more about my journey</span></NuxtLink
           >
