@@ -15,7 +15,7 @@
             </v-row>
             <v-row>
                 <v-col>
-                    <v-btn to="/experience">
+                    <v-btn to="/">
                         Let's explore further
                     </v-btn>
                 </v-col>
