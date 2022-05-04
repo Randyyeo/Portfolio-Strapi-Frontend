@@ -2,92 +2,50 @@
   {
     "name": "contact",
     "path": "/contact",
-<<<<<<< HEAD
     "component": "/var/www/frontend/html/Portfolio-Strapi-Frontend/pages/contact.vue",
     "chunkName": "pages/contact",
     "_name": "_79d548e2"
-=======
-    "component": "/Users/randallyeo/My Own Programming/Nuxtjs/portfolio-app-strapi/Portfolio-Strapi-Frontend/pages/contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_072b9981"
->>>>>>> 6bf79260ff5ff70ae27947117fa078ee9430753b
   },
   {
     "name": "education",
     "path": "/education",
-<<<<<<< HEAD
     "component": "/var/www/frontend/html/Portfolio-Strapi-Frontend/pages/education.vue",
     "chunkName": "pages/education",
     "_name": "_794a7d52"
-=======
-    "component": "/Users/randallyeo/My Own Programming/Nuxtjs/portfolio-app-strapi/Portfolio-Strapi-Frontend/pages/education.vue",
-    "chunkName": "pages/education",
-    "_name": "_5ad94ac9"
->>>>>>> 6bf79260ff5ff70ae27947117fa078ee9430753b
   },
   {
     "name": "experience",
     "path": "/experience",
-<<<<<<< HEAD
     "component": "/var/www/frontend/html/Portfolio-Strapi-Frontend/pages/experience/index.vue",
     "chunkName": "pages/experience/index",
     "_name": "_30a3f10e"
-=======
-    "component": "/Users/randallyeo/My Own Programming/Nuxtjs/portfolio-app-strapi/Portfolio-Strapi-Frontend/pages/experience/index.vue",
-    "chunkName": "pages/experience/index",
-    "_name": "_daa17948"
->>>>>>> 6bf79260ff5ff70ae27947117fa078ee9430753b
   },
   {
     "name": "projects",
     "path": "/projects",
-<<<<<<< HEAD
     "component": "/var/www/frontend/html/Portfolio-Strapi-Frontend/pages/projects.vue",
     "chunkName": "pages/projects",
     "_name": "_e1d1f7ca"
-=======
-    "component": "/Users/randallyeo/My Own Programming/Nuxtjs/portfolio-app-strapi/Portfolio-Strapi-Frontend/pages/projects.vue",
-    "chunkName": "pages/projects",
-    "_name": "_646ef72e"
->>>>>>> 6bf79260ff5ff70ae27947117fa078ee9430753b
   },
   {
     "name": "thanks",
     "path": "/thanks",
-<<<<<<< HEAD
     "component": "/var/www/frontend/html/Portfolio-Strapi-Frontend/pages/thanks.vue",
     "chunkName": "pages/thanks",
     "_name": "_099d912a"
-=======
-    "component": "/Users/randallyeo/My Own Programming/Nuxtjs/portfolio-app-strapi/Portfolio-Strapi-Frontend/pages/thanks.vue",
-    "chunkName": "pages/thanks",
-    "_name": "_f0a26610"
->>>>>>> 6bf79260ff5ff70ae27947117fa078ee9430753b
   },
   {
     "name": "experience-id",
     "path": "/experience/:id",
-<<<<<<< HEAD
     "component": "/var/www/frontend/html/Portfolio-Strapi-Frontend/pages/experience/_id.vue",
     "chunkName": "pages/experience/_id",
     "_name": "_3a124214"
-=======
-    "component": "/Users/randallyeo/My Own Programming/Nuxtjs/portfolio-app-strapi/Portfolio-Strapi-Frontend/pages/experience/_id.vue",
-    "chunkName": "pages/experience/_id",
-    "_name": "_56a32678"
->>>>>>> 6bf79260ff5ff70ae27947117fa078ee9430753b
   },
   {
     "name": "index",
     "path": "/",
-<<<<<<< HEAD
     "component": "/var/www/frontend/html/Portfolio-Strapi-Frontend/pages/index.vue",
     "chunkName": "pages/index",
     "_name": "_4e010101"
-=======
-    "component": "/Users/randallyeo/My Own Programming/Nuxtjs/portfolio-app-strapi/Portfolio-Strapi-Frontend/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_52121373"
->>>>>>> 6bf79260ff5ff70ae27947117fa078ee9430753b
   }
 ]
