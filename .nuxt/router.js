@@ -4,15 +4,6 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-<<<<<<< HEAD
-const _79d548e2 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
-const _794a7d52 = () => interopDefault(import('../pages/education.vue' /* webpackChunkName: "pages/education" */))
-const _30a3f10e = () => interopDefault(import('../pages/experience/index.vue' /* webpackChunkName: "pages/experience/index" */))
-const _e1d1f7ca = () => interopDefault(import('../pages/projects.vue' /* webpackChunkName: "pages/projects" */))
-const _099d912a = () => interopDefault(import('../pages/thanks.vue' /* webpackChunkName: "pages/thanks" */))
-const _3a124214 = () => interopDefault(import('../pages/experience/_id.vue' /* webpackChunkName: "pages/experience/_id" */))
-const _4e010101 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
-=======
 const _072b9981 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _5ad94ac9 = () => interopDefault(import('../pages/education.vue' /* webpackChunkName: "pages/education" */))
 const _daa17948 = () => interopDefault(import('../pages/experience/index.vue' /* webpackChunkName: "pages/experience/index" */))
@@ -20,7 +11,6 @@ const _646ef72e = () => interopDefault(import('../pages/projects.vue' /* webpack
 const _f0a26610 = () => interopDefault(import('../pages/thanks.vue' /* webpackChunkName: "pages/thanks" */))
 const _56a32678 = () => interopDefault(import('../pages/experience/_id.vue' /* webpackChunkName: "pages/experience/_id" */))
 const _52121373 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
->>>>>>> 6bf79260ff5ff70ae27947117fa078ee9430753b
 
 const emptyFn = () => {}
 
@@ -35,33 +25,6 @@ export const routerOptions = {
 
   routes: [{
     path: "/contact",
-<<<<<<< HEAD
-    component: _79d548e2,
-    name: "contact"
-  }, {
-    path: "/education",
-    component: _794a7d52,
-    name: "education"
-  }, {
-    path: "/experience",
-    component: _30a3f10e,
-    name: "experience"
-  }, {
-    path: "/projects",
-    component: _e1d1f7ca,
-    name: "projects"
-  }, {
-    path: "/thanks",
-    component: _099d912a,
-    name: "thanks"
-  }, {
-    path: "/experience/:id",
-    component: _3a124214,
-    name: "experience-id"
-  }, {
-    path: "/",
-    component: _4e010101,
-=======
     component: _072b9981,
     name: "contact"
   }, {
@@ -87,7 +50,6 @@ export const routerOptions = {
   }, {
     path: "/",
     component: _52121373,
->>>>>>> 6bf79260ff5ff70ae27947117fa078ee9430753b
     name: "index"
   }],
 
