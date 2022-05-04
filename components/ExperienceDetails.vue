@@ -17,12 +17,14 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-container v-if="details === null" class="delay">
-      <p id="message">
-        Sorry for the delay! All the information is hosted on a free server
-        which takes sometime to boot up. You can refresh a few more times and
-        wait 1-2mins for it to show.
-      </p>
+    <v-container v-if="details === null" class="delay text-center">
+      <v-progress-circular
+                indeterminate
+                color="primary"
+                :width="7"
+                :size="70"
+            ></v-progress-circular>
+            <span style="display: block;" class="mt-3" >Please wait while we retrieve the information</span>
     </v-container>
   </div>
 </template>
@@ -67,7 +69,7 @@ p {
   font-size: 16px;
 }
 .delay {
-  width: 50%;
+ /*  width: 50%;
   margin: 4cm auto 0 auto;
   background-color: grey;
   border-radius: 12px;
@@ -78,7 +80,8 @@ p {
     width: 80%;
     padding: 5% 0;
     margin: auto;
-  }
+  } */
+  margin: 4cm auto;
 }
 @media (max-width: 600px) {
         .delay{

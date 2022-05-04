@@ -18,12 +18,14 @@
     
     
     <MyProjects :data="filter ? project : projects" v-if="projects !== null" />
-    <v-container v-if="projects === null" class="delay">
-      <p id="message">
-        Sorry for the delay! All the information is hosted on a free server
-        which takes sometime to boot up. You can refresh a few more times and
-        wait 1-2mins for it to show.
-      </p>
+    <v-container v-if="projects === null" class="text-center mt-5">
+      <v-progress-circular
+                indeterminate
+                color="primary"
+                :width="7"
+                :size="70"
+            ></v-progress-circular>
+      <p class="mt-3">Please wait while we retrieve the information</p>
     </v-container>
   </div>
   

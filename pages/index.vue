@@ -4,7 +4,7 @@
       <div  class="pt-5 hidden-sm-and-down">
         <v-row>
           <v-col data-aos="fade-up" col="6" class="pt-16" >
-            <p class="my-8">Hi, I'm Randall</p>
+            <p style="margin-top: 4cm;">Hi, I'm Randall</p>
             <h1>Motivator . Leader . Professional</h1>
             <p class="pt-4">
               Aspiring Quant Developer/Software Engineer 
